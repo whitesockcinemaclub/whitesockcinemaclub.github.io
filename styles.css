@@ -21,9 +21,8 @@ header {
 }
 
 .logo {
-    width: 70vh;
+    width: 60vh;
     padding-top: 1%;
-    min-width: 25vh;
 }
 
 .search-container {
