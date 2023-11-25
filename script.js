@@ -2,6 +2,22 @@
 
 const tilesData = [
     {
+        "Name": "Oppenheimer",
+        "Thumbnail src": "https://i3.ytimg.com/vi/XRejEcValfE/maxresdefault.jpg",
+        "highlightlink": "https://www.youtube.com/watch?v=XRejEcValfE",
+        "fullreactionlink": "https://www.patreon.com/posts/oppenheimer-full-93422871",
+        "tags": "['oppenheimer', 'biopic', 'history']",
+        "uploaddate": 1700606875
+    },
+    {
+        "Name": "Indiana Jones and the Temple of Doom",
+        "Thumbnail src": "https://i3.ytimg.com/vi/1ekpphPfPnw/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/1ekpphPfPnw",
+        "fullreactionlink": "https://www.patreon.com/posts/indiana-jones-of-93311734",
+        "tags": "['indiana jones and the temple of doom', 'adventure', 'action', 'classic']",
+        "uploaddate": 1700347675
+    },
+    {
         "Name": "The Running Man",
         "Thumbnail src": "http://i3.ytimg.com/vi/J47rgAO1dHc/maxresdefault.jpg",
         "highlightlink": "https://youtu.be/J47rgAO1dHc",
