@@ -7,7 +7,7 @@ const tilesData = [
         "highlightlink": "https://www.youtube.com/watch?v=XRejEcValfE",
         "fullreactionlink": "https://www.patreon.com/posts/oppenheimer-full-93422871",
         "tags": "['oppenheimer', 'biopic', 'history']",
-        "uploaddate": 1700606875
+        "uploaddate": 1700606875000
     },
     {
         "Name": "Indiana Jones and the Temple of Doom",
@@ -15,7 +15,7 @@ const tilesData = [
         "highlightlink": "https://youtu.be/1ekpphPfPnw",
         "fullreactionlink": "https://www.patreon.com/posts/indiana-jones-of-93311734",
         "tags": "['indiana jones and the temple of doom', 'adventure', 'action', 'classic']",
-        "uploaddate": 1700347675
+        "uploaddate": 1700347675000
     },
     {
         "Name": "The Running Man",
