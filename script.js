@@ -368,7 +368,7 @@ const searchTiles = () => {
             tile['Name'].toLowerCase().includes(searchValue) ||
             tile['tags'].toLowerCase().includes(searchValue)
         );
-        populateTiles(filteredTiles);
+        populateTiles(filteredTiles); // Correctly populate with filtered episodes 
     } else { // Movies grid
         const movies = tilesData.filter(tile => !tile.type || tile.type === "movie");
         const filteredTiles = movies.filter(tile =>
