@@ -368,7 +368,7 @@ const searchTiles = () => {
             tile['Name'].toLowerCase().includes(searchValue) ||
             tile['tags'].toLowerCase().includes(searchValue)
         );
-        populateTiles(filteredTiles); 
+        populateTiles(filteredTiles);
     } else { // Movies grid
         const movies = tilesData.filter(tile => !tile.type || tile.type === "movie");
         const filteredTiles = movies.filter(tile =>
@@ -386,7 +386,7 @@ const btnOldest = document.getElementById('sort-oldest');
 const btnTVShows = document.getElementById('show-tv-shows');
 
 let isShowingTVShows = false;
-let isShowingEpisodes = false; 
+let isShowingEpisodes = false;
 let currentSeason = null;
 
 const sortNewest = () => {
@@ -406,12 +406,12 @@ const sortOldest = () => {
 };
 
 const toggleTVShows = () => {
-    if (isShowingEpisodes) { 
+    if (isShowingEpisodes) {
         isShowingEpisodes = false;
-        btnTVShows.textContent = "Movies"; 
+        btnTVShows.textContent = "Movies";
         const tvShows = tilesData.filter(tile => tile.type === "tv show");
         populateTiles(tvShows);
-    } else { 
+    } else {
         isShowingTVShows = !isShowingTVShows;
 
         if (isShowingTVShows) {
@@ -422,13 +422,13 @@ const toggleTVShows = () => {
         } else {
             btnTVShows.textContent = "TV Shows";
             btnTVShows.classList.remove('active');
-            const movies = tilesData.filter(tile => !tile.type || tile.type === "movie"); 
+            const movies = tilesData.filter(tile => !tile.type || tile.type === "movie");
             populateTiles(movies);
         }
     }
 };
 
-sortNewest(); 
+sortNewest();
 
 btnNewest.addEventListener('click', sortNewest);
 btnOldest.addEventListener('click', sortOldest);
@@ -439,16 +439,8 @@ document.addEventListener('click', (event) => {
         const seasonName = event.target.dataset.season;
         const episodes = tilesData.filter(tile => tile.type === "episode" && tile.season === seasonName);
         populateTiles(episodes);
-        btnTVShows.textContent = "Back"; 
-        isShowingEpisodes = true; 
-        currentSeason = seasonName; 
-    }
-});
-
-// Add event listener for search bar input within the episode grid
-document.getElementById('search-bar').addEventListener('input', () => {
-    if (isShowingEpisodes) {
-        currentSeason = tilesData.filter(tile => tile.type === "episode").map(episode => episode.season)[0]; 
-        searchTiles(); 
+        btnTVShows.textContent = "Back";
+        isShowingEpisodes = true;
+        currentSeason = seasonName; // Update currentSeason when "All Episodes" is clicked
     }
 });
