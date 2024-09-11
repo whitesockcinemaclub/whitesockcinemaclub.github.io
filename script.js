@@ -363,7 +363,8 @@ const searchTiles = () => {
         );
         populateTiles(filteredTiles);
     } else if (isShowingEpisodes) {
-        const currentSeasonEpisodes = tilesData.filter(tile => tile.type === "episode" && tile.season === currentSeason);
+        // Filter by currentSeason FIRST, then search within those episodes
+        const currentSeasonEpisodes = tilesData.filter(tile => tile.type === "episode" && tile.season === currentSeason); 
         const filteredTiles = currentSeasonEpisodes.filter(tile =>
             tile['Name'].toLowerCase().includes(searchValue) ||
             tile['tags'].toLowerCase().includes(searchValue)
