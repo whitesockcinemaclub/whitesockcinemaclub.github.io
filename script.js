@@ -353,24 +353,28 @@ const populateTiles = (data) => {
 }
 
 const searchTiles = () => {
-    if (isShowingEpisodes) {
-        return; // Do nothing if showing episodes (search is disabled)
-    }
-
     const searchValue = document.getElementById('search-bar').value.toLowerCase();
 
     if (isShowingTVShows) {
         const tvShows = tilesData.filter(tile => tile.type === "tv show");
         const filteredTiles = tvShows.filter(tile =>
             tile['Name'].toLowerCase().includes(searchValue) ||
-            tile['tags'].some(tag => tag.toLowerCase().includes(searchValue))
+            tile['tags'].toLowerCase().includes(searchValue)
+        );
+        populateTiles(filteredTiles);
+    } else if (isShowingEpisodes) {
+        // Filter by currentSeason FIRST, then search within those episodes
+        const currentSeasonEpisodes = tilesData.filter(tile => tile.type === "episode" && tile.season === currentSeason); 
+        const filteredTiles = currentSeasonEpisodes.filter(tile =>
+            tile['Name'].toLowerCase().includes(searchValue) ||
+            tile['tags'].toLowerCase().includes(searchValue)
         );
         populateTiles(filteredTiles);
     } else { // Movies grid
         const movies = tilesData.filter(tile => !tile.type || tile.type === "movie");
         const filteredTiles = movies.filter(tile =>
             tile['Name'].toLowerCase().includes(searchValue) ||
-            tile['tags'].some(tag => tag.toLowerCase().includes(searchValue))
+            tile['tags'].toLowerCase().includes(searchValue)
         );
         populateTiles(filteredTiles);
     }
@@ -409,9 +413,6 @@ const toggleTVShows = () => {
         btnTVShows.textContent = "Movies"; // Change button text back to "Movies"
         const tvShows = tilesData.filter(tile => tile.type === "tv show");
         populateTiles(tvShows);
-
-        document.getElementById('search-bar').classList.remove('disabled'); // Enable the search bar
-
     } else { // If currently showing movies or TV shows grid
         isShowingTVShows = !isShowingTVShows; 
 
@@ -420,15 +421,11 @@ const toggleTVShows = () => {
             btnTVShows.classList.add('active');
             const tvShows = tilesData.filter(tile => tile.type === "tv show");
             populateTiles(tvShows);
-
-            document.getElementById('search-bar').classList.remove('disabled'); // Enable the search bar
         } else {
             btnTVShows.textContent = "TV Shows";
             btnTVShows.classList.remove('active');
             const movies = tilesData.filter(tile => !tile.type || tile.type === "movie");
             populateTiles(movies);
-
-            document.getElementById('search-bar').classList.remove('disabled'); // Enable the search bar
         }
     }
 };

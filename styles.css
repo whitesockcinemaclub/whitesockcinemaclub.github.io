@@ -228,9 +228,3 @@ body::-webkit-scrollbar {
     background: #6e90b8;
     transform: translateX(-50%) scale(1.1); 
 }
-
-#search-bar.disabled {
-    background-color: #ccc; /* Light gray background */
-    cursor: not-allowed; /* Change cursor to indicate it's disabled */
-    pointer-events: none; /* Prevent any interaction with the input */
-}
