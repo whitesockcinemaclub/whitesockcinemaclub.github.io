@@ -354,13 +354,31 @@ const populateTiles = (data) => {
 
 const searchTiles = () => {
     const searchValue = document.getElementById('search-bar').value.toLowerCase();
-    const currentTiles = isShowingTVShows ? tilesData.filter(tile => tile.type === "tv show") : tilesData.filter(tile => tile.type !== "tv show" || !tile.type); 
-    const filteredTiles = currentTiles.filter(tile => 
-        tile['Name'].toLowerCase().includes(searchValue) ||
-        tile['tags'].toLowerCase().includes(searchValue)
-    );
-    populateTiles(filteredTiles);
-}
+
+    if (isShowingTVShows) { 
+        const tvShows = tilesData.filter(tile => tile.type === "tv show");
+        const filteredTiles = tvShows.filter(tile => 
+            tile['Name'].toLowerCase().includes(searchValue) ||
+            tile['tags'].toLowerCase().includes(searchValue)
+        );
+        populateTiles(filteredTiles);
+    } else if (isShowingEpisodes) {
+        const currentSeason = tilesData.filter(tile => tile.type === "episode").map(episode => episode.season)[0]; // Assuming all displayed episodes are from the same season
+        const episodes = tilesData.filter(tile => tile.type === "episode" && tile.season === currentSeason);
+        const filteredTiles = episodes.filter(tile =>
+            tile['Name'].toLowerCase().includes(searchValue) ||
+            tile['tags'].toLowerCase().includes(searchValue)
+        );
+        populateTiles(filteredTiles);
+    } else { // Movies grid
+        const movies = tilesData.filter(tile => !tile.type || tile.type === "movie");
+        const filteredTiles = movies.filter(tile =>
+            tile['Name'].toLowerCase().includes(searchValue) ||
+            tile['tags'].toLowerCase().includes(searchValue)
+        );
+        populateTiles(filteredTiles);
+    }
+};
 
 document.getElementById('search-bar').addEventListener('input', searchTiles);
 
