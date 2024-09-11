@@ -1,5 +1,3 @@
-
-
 const tilesData = [
     {
         "Name": "Oppenheimer",
@@ -256,25 +254,98 @@ const tilesData = [
         "fullreactionlink": "https://www.patreon.com/posts/oceans-eleven-93126198",
         "tags": "['heist', 'action']",
         "uploaddate": 1700265600000
+    },
+    {
+        "Name": "Daredevil (Season 1)",
+        "Thumbnail src": "https://i3.ytimg.com/vi/jAy6NJ_D5vU/maxresdefault.jpg", 
+        "highlightlink": "https://youtu.be/jAy6NJ_D5vU",
+        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-77838704",
+        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
+        "uploaddate": 1674777600000,
+        "type": "tv show" 
+    },
+    {
+        "Name": "Daredevil (Season 2)",
+        "Thumbnail src": "https://i3.ytimg.com/vi/m5_A0WxKdCU/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/m5_A0WxKdCU",
+        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-78691657",
+        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
+        "uploaddate": 1676505600000,
+        "type": "tv show"
+    },
+    {
+        "Name": "Daredevil (Season 1) - Episode 1: Into the Ring",
+        "Thumbnail src": "https://i3.ytimg.com/vi/jAy6NJ_D5vU/maxresdefault.jpg", // Replace with actual episode thumbnail
+        "highlightlink": "https://youtu.be/jAy6NJ_D5vU", // Replace with episode highlight link
+        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-77838704", // Replace with episode full reaction link
+        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
+        "uploaddate": 1674777600000,
+        "type": "episode",
+        "season": "Daredevil (Season 1)"
+    },
+    {
+        "Name": "Daredevil (Season 1) - Episode 2: Cut Man",
+        "Thumbnail src": "https://i3.ytimg.com/vi/jAy6NJ_D5vU/maxresdefault.jpg", // Replace with actual episode thumbnail
+        "highlightlink": "https://youtu.be/jAy6NJ_D5vU", // Replace with episode highlight link
+        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-77838704", // Replace with episode full reaction link
+        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
+        "uploaddate": 1674777600000,
+        "type": "episode",
+        "season": "Daredevil (Season 1)"
+    },
+    // ... Add more episodes for Daredevil Season 1 
+    {
+        "Name": "Daredevil (Season 2) - Episode 1: Bang",
+        "Thumbnail src": "https://i3.ytimg.com/vi/m5_A0WxKdCU/maxresdefault.jpg", // Replace with actual episode thumbnail
+        "highlightlink": "https://youtu.be/m5_A0WxKdCU", // Replace with episode highlight link
+        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-78691657", // Replace with episode full reaction link
+        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
+        "uploaddate": 1676505600000,
+        "type": "episode",
+        "season": "Daredevil (Season 2)"
+    },
+    {
+        "Name": "Daredevil (Season 2) - Episode 2: Dogs in the Street",
+        "Thumbnail src": "https://i3.ytimg.com/vi/m5_A0WxKdCU/maxresdefault.jpg", // Replace with actual episode thumbnail
+        "highlightlink": "https://youtu.be/m5_A0WxKdCU", // Replace with episode highlight link
+        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-78691657", // Replace with episode full reaction link
+        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
+        "uploaddate": 1676505600000,
+        "type": "episode",
+        "season": "Daredevil (Season 2)"
     }
+    // ... Add more episodes for Daredevil Season 2 and other seasons
 ];
 
 
 const createTile = (tile) => {
-    return `
-        <div class="tile">
-            <div class="thumbnail-container">
-                <img src="${tile['Thumbnail src']}" alt="${tile['Name']}" class="thumbnail">
-                <a href="${tile['highlightlink']}" class="highlight-link">Reaction</a>
-                <a href="${tile['fullreactionlink']}" class="full-reaction-link">Full Length</a>
+    if (tile.type === "tv show") {
+        return `
+            <div class="tile">
+                <div class="thumbnail-container">
+                    <img src="${tile['Thumbnail src']}" alt="${tile['Name']}" class="thumbnail">
+                    <a href="#" class="all-episodes-link" data-season="${tile['Name']}">All Episodes</a> 
+                </div>
+                <div class="tile-info">
+                    <h4>${tile['Name']}</h4>
+                </div>
             </div>
-            <div class="tile-info">
-                <h4>${tile['Name']}</h4>
+        `;
+    } else { // For movies and episodes
+        return `
+            <div class="tile">
+                <div class="thumbnail-container">
+                    <img src="${tile['Thumbnail src']}" alt="${tile['Name']}" class="thumbnail">
+                    <a href="${tile['highlightlink']}" class="highlight-link">Reaction</a>
+                    <a href="${tile['fullreactionlink']}" class="full-reaction-link">Full Length</a>
+                </div>
+                <div class="tile-info">
+                    <h4>${tile['Name']}</h4>
+                </div>
             </div>
-        </div>
-    `;
+        `;
+    }
 }
-
 
 const populateTiles = (data) => {
     const tilesContainer = document.querySelector('.tiles-container');
@@ -283,38 +354,83 @@ const populateTiles = (data) => {
 
 const searchTiles = () => {
     const searchValue = document.getElementById('search-bar').value.toLowerCase();
-    const filteredTiles = tilesData.filter(tile => 
+    const currentTiles = isShowingTVShows ? tilesData.filter(tile => tile.type === "tv show") : tilesData.filter(tile => tile.type !== "tv show" || !tile.type); 
+    const filteredTiles = currentTiles.filter(tile => 
         tile['Name'].toLowerCase().includes(searchValue) ||
         tile['tags'].toLowerCase().includes(searchValue)
     );
     populateTiles(filteredTiles);
 }
 
-
 document.getElementById('search-bar').addEventListener('input', searchTiles);
-
-populateTiles(tilesData); 
 
 const btnNewest = document.getElementById('sort-newest');
 const btnOldest = document.getElementById('sort-oldest');
+const btnTVShows = document.getElementById('show-tv-shows');
+
+let isShowingTVShows = false; 
 
 const sortNewest = () => {
-    const sortedTiles = [...tilesData].sort((a, b) => new Date(b['uploaddate']) - new Date(a['uploaddate']));
+    const currentTiles = isShowingTVShows ? tilesData.filter(tile => tile.type === "tv show") : tilesData.filter(tile => tile.type === "movie" || !tile.type); // Filter for movies or undefined types
+    const sortedTiles = [...currentTiles].sort((a, b) => new Date(b['uploaddate']) - new Date(a['uploaddate']));
     populateTiles(sortedTiles);
     btnNewest.classList.add('active');
     btnOldest.classList.remove('active');
 };
 
 const sortOldest = () => {
-    const sortedTiles = [...tilesData].sort((a, b) => new Date(a['uploaddate']) - new Date(b['uploaddate']));
+    const currentTiles = isShowingTVShows ? tilesData.filter(tile => tile.type === "tv show") : tilesData.filter(tile => tile.type === "movie" || !tile.type); // Filter for movies or undefined types
+    const sortedTiles = [...currentTiles].sort((a, b) => new Date(a['uploaddate']) - new Date(b['uploaddate']));
     populateTiles(sortedTiles);
     btnOldest.classList.add('active');
     btnNewest.classList.remove('active');
 };
 
+const toggleTVShows = () => {
+    if (isShowingEpisodes) { // If currently showing episodes, go back to TV shows
+        isShowingEpisodes = false;
+        btnTVShows.textContent = "Movies"; 
+        const tvShows = tilesData.filter(tile => tile.type === "tv show");
+        populateTiles(tvShows);
+    } else { // Otherwise, toggle between Movies and TV Shows
+        isShowingTVShows = !isShowingTVShows;
 
-sortNewest();
+        if (isShowingTVShows) {
+            btnTVShows.textContent = "Movies";
+            btnTVShows.classList.add('active');
+            const tvShows = tilesData.filter(tile => tile.type === "tv show");
+            populateTiles(tvShows);
+        } else {
+            btnTVShows.textContent = "TV Shows";
+            btnTVShows.classList.remove('active');
+            const movies = tilesData.filter(tile => !tile.type || tile.type === "movie"); 
+            populateTiles(movies);
+        }
+    }
+};
 
+let isShowingEpisodes = false; // Flag to track if episodes are being shown
+
+document.addEventListener('click', (event) => {
+    if (event.target.classList.contains('all-episodes-link')) {
+        const seasonName = event.target.dataset.season;
+        const episodes = tilesData.filter(tile => tile.type === "episode" && tile.season === seasonName);
+        populateTiles(episodes);
+        btnTVShows.textContent = "Back"; // Change button text to "Back"
+        isShowingEpisodes = true; // Set flag to indicate episodes are being shown
+    }
+});
+
+sortNewest(); 
 
 btnNewest.addEventListener('click', sortNewest);
 btnOldest.addEventListener('click', sortOldest);
+btnTVShows.addEventListener('click', toggleTVShows);
+
+document.addEventListener('click', (event) => {
+    if (event.target.classList.contains('all-episodes-link')) {
+        const seasonName = event.target.dataset.season;
+        const episodes = tilesData.filter(tile => tile.type === "episode" && tile.season === seasonName);
+        populateTiles(episodes);
+    }
+});
