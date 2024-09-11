@@ -355,17 +355,16 @@ const populateTiles = (data) => {
 const searchTiles = () => {
     const searchValue = document.getElementById('search-bar').value.toLowerCase();
 
-    if (isShowingTVShows) { 
+    if (isShowingTVShows) {
         const tvShows = tilesData.filter(tile => tile.type === "tv show");
-        const filteredTiles = tvShows.filter(tile => 
+        const filteredTiles = tvShows.filter(tile =>
             tile['Name'].toLowerCase().includes(searchValue) ||
             tile['tags'].toLowerCase().includes(searchValue)
         );
         populateTiles(filteredTiles);
     } else if (isShowingEpisodes) {
-        const currentSeason = tilesData.filter(tile => tile.type === "episode").map(episode => episode.season)[0]; // Assuming all displayed episodes are from the same season
-        const episodes = tilesData.filter(tile => tile.type === "episode" && tile.season === currentSeason);
-        const filteredTiles = episodes.filter(tile =>
+        const currentSeasonEpisodes = tilesData.filter(tile => tile.type === "episode" && tile.season === currentSeason);
+        const filteredTiles = currentSeasonEpisodes.filter(tile =>
             tile['Name'].toLowerCase().includes(searchValue) ||
             tile['tags'].toLowerCase().includes(searchValue)
         );
@@ -386,10 +385,12 @@ const btnNewest = document.getElementById('sort-newest');
 const btnOldest = document.getElementById('sort-oldest');
 const btnTVShows = document.getElementById('show-tv-shows');
 
-let isShowingTVShows = false; 
+let isShowingTVShows = false;
+let isShowingEpisodes = false; 
+let currentSeason = null;
 
 const sortNewest = () => {
-    const currentTiles = isShowingTVShows ? tilesData.filter(tile => tile.type === "tv show") : tilesData.filter(tile => tile.type === "movie" || !tile.type); // Filter for movies or undefined types
+    const currentTiles = isShowingTVShows ? tilesData.filter(tile => tile.type === "tv show") : tilesData.filter(tile => !tile.type || tile.type === "movie");
     const sortedTiles = [...currentTiles].sort((a, b) => new Date(b['uploaddate']) - new Date(a['uploaddate']));
     populateTiles(sortedTiles);
     btnNewest.classList.add('active');
@@ -397,7 +398,7 @@ const sortNewest = () => {
 };
 
 const sortOldest = () => {
-    const currentTiles = isShowingTVShows ? tilesData.filter(tile => tile.type === "tv show") : tilesData.filter(tile => tile.type === "movie" || !tile.type); // Filter for movies or undefined types
+    const currentTiles = isShowingTVShows ? tilesData.filter(tile => tile.type === "tv show") : tilesData.filter(tile => !tile.type || tile.type === "movie");
     const sortedTiles = [...currentTiles].sort((a, b) => new Date(a['uploaddate']) - new Date(b['uploaddate']));
     populateTiles(sortedTiles);
     btnOldest.classList.add('active');
@@ -405,12 +406,12 @@ const sortOldest = () => {
 };
 
 const toggleTVShows = () => {
-    if (isShowingEpisodes) { // If currently showing episodes, go back to TV shows
+    if (isShowingEpisodes) { 
         isShowingEpisodes = false;
         btnTVShows.textContent = "Movies"; 
         const tvShows = tilesData.filter(tile => tile.type === "tv show");
         populateTiles(tvShows);
-    } else { // Otherwise, toggle between Movies and TV Shows
+    } else { 
         isShowingTVShows = !isShowingTVShows;
 
         if (isShowingTVShows) {
@@ -427,18 +428,6 @@ const toggleTVShows = () => {
     }
 };
 
-let isShowingEpisodes = false; // Flag to track if episodes are being shown
-
-document.addEventListener('click', (event) => {
-    if (event.target.classList.contains('all-episodes-link')) {
-        const seasonName = event.target.dataset.season;
-        const episodes = tilesData.filter(tile => tile.type === "episode" && tile.season === seasonName);
-        populateTiles(episodes);
-        btnTVShows.textContent = "Back"; // Change button text to "Back"
-        isShowingEpisodes = true; // Set flag to indicate episodes are being shown
-    }
-});
-
 sortNewest(); 
 
 btnNewest.addEventListener('click', sortNewest);
@@ -450,5 +439,8 @@ document.addEventListener('click', (event) => {
         const seasonName = event.target.dataset.season;
         const episodes = tilesData.filter(tile => tile.type === "episode" && tile.season === seasonName);
         populateTiles(episodes);
+        btnTVShows.textContent = "Back"; 
+        isShowingEpisodes = true; 
+        currentSeason = seasonName; // Update currentSeason when "All Episodes" is clicked
     }
 });
