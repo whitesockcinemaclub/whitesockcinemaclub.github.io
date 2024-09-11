@@ -368,7 +368,7 @@ const searchTiles = () => {
             tile['Name'].toLowerCase().includes(searchValue) ||
             tile['tags'].toLowerCase().includes(searchValue)
         );
-        populateTiles(filteredTiles); // Correctly populate with filtered episodes 
+        populateTiles(filteredTiles); 
     } else { // Movies grid
         const movies = tilesData.filter(tile => !tile.type || tile.type === "movie");
         const filteredTiles = movies.filter(tile =>
@@ -441,6 +441,14 @@ document.addEventListener('click', (event) => {
         populateTiles(episodes);
         btnTVShows.textContent = "Back"; 
         isShowingEpisodes = true; 
-        currentSeason = seasonName; // Update currentSeason when "All Episodes" is clicked
+        currentSeason = seasonName; 
+    }
+});
+
+// Add event listener for search bar input within the episode grid
+document.getElementById('search-bar').addEventListener('input', () => {
+    if (isShowingEpisodes) {
+        currentSeason = tilesData.filter(tile => tile.type === "episode").map(episode => episode.season)[0]; 
+        searchTiles(); 
     }
 });
