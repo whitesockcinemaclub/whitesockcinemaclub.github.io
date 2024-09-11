@@ -407,13 +407,14 @@ const sortOldest = () => {
 };
 
 const toggleTVShows = () => {
-    if (isShowingEpisodes) {
+    if (isShowingEpisodes) { // If currently showing episodes (inside a season)
         isShowingEpisodes = false;
-        btnTVShows.textContent = "Movies";
+        isShowingTVShows = true; // Go back to showing the TV show grid
+        btnTVShows.textContent = "Movies"; // Change button text back to "Movies"
         const tvShows = tilesData.filter(tile => tile.type === "tv show");
         populateTiles(tvShows);
-    } else {
-        isShowingTVShows = !isShowingTVShows;
+    } else { // If currently showing movies or TV shows grid
+        isShowingTVShows = !isShowingTVShows; 
 
         if (isShowingTVShows) {
             btnTVShows.textContent = "Movies";
