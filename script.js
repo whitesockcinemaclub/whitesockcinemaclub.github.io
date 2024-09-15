@@ -314,47 +314,16 @@ const tilesData = [
         "type": "tv show"
     },
     {
-        "Name": "Daredevil (Season 1) - Episode 1: Into the Ring",
-        "Thumbnail src": "https://i3.ytimg.com/vi/jAy6NJ_D5vU/maxresdefault.jpg", // Replace with actual episode thumbnail
-        "highlightlink": "https://youtu.be/jAy6NJ_D5vU", // Replace with episode highlight link
-        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-77838704", // Replace with episode full reaction link
+        "Name": "Temp",
+        "Thumbnail src": "https://i3.ytimg.com/vi/jAy6NJ_D5vU/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/jAy6NJ_D5vU", 
+        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-77838704", 
         "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
         "uploaddate": 1674777600000,
         "type": "episode",
-        "season": "Daredevil (Season 1)"
-    },
-    {
-        "Name": "Daredevil (Season 1) - Episode 2: Cut Man",
-        "Thumbnail src": "https://i3.ytimg.com/vi/jAy6NJ_D5vU/maxresdefault.jpg", // Replace with actual episode thumbnail
-        "highlightlink": "https://youtu.be/jAy6NJ_D5vU", // Replace with episode highlight link
-        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-77838704", // Replace with episode full reaction link
-        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
-        "uploaddate": 1674777600000,
-        "type": "episode",
-        "season": "Daredevil (Season 1)"
-    },
-    // ... Add more episodes for Daredevil Season 1 
-    {
-        "Name": "Daredevil (Season 2) - Episode 1: Bang",
-        "Thumbnail src": "https://i3.ytimg.com/vi/m5_A0WxKdCU/maxresdefault.jpg", // Replace with actual episode thumbnail
-        "highlightlink": "https://youtu.be/m5_A0WxKdCU", // Replace with episode highlight link
-        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-78691657", // Replace with episode full reaction link
-        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
-        "uploaddate": 1676505600000,
-        "type": "episode",
-        "season": "Daredevil (Season 2)"
-    },
-    {
-        "Name": "Daredevil (Season 2) - Episode 2: Dogs in the Street",
-        "Thumbnail src": "https://i3.ytimg.com/vi/m5_A0WxKdCU/maxresdefault.jpg", // Replace with actual episode thumbnail
-        "highlightlink": "https://youtu.be/m5_A0WxKdCU", // Replace with episode highlight link
-        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-78691657", // Replace with episode full reaction link
-        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
-        "uploaddate": 1676505600000,
-        "type": "episode",
-        "season": "Daredevil (Season 2)"
+        "season": "Seasonname"
     }
-    // ... Add more episodes for Daredevil Season 2 and other seasons
+  
 ];
 
 

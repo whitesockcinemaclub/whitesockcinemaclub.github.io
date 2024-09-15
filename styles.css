@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    background: linear-gradient(to right, #e6a8d7, #a6c7e5, #a6e5d0); /* Gradient colors */
+    background: linear-gradient(to right, #e6a8d7, #a6c7e5, #a6e5d0);
     -ms-overflow-style: none;  
     scrollbar-width: none;  
 }
@@ -177,7 +177,7 @@ body::-webkit-scrollbar {
     outline: none;
     box-shadow: 0px 2.5px 5px rgba(0, 0, 0, 0.8);
 }
-#show-tv-shows { /* Style for the TV Shows button */
+#show-tv-shows { 
     font-family: brevia, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -199,7 +199,7 @@ body::-webkit-scrollbar {
     box-shadow: 0px 2.5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.all-episodes-link { /* Style for the "All Episodes" button */
+.all-episodes-link { 
     display: none;
     font-family: brevia, sans-serif;
     font-weight: 700;
