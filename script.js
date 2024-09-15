@@ -147,7 +147,7 @@ const tilesData = [
         "Name": "Iron Man 3",
         "Thumbnail src": "http://i3.ytimg.com/vi/JAU8aWWs41g/maxresdefault.jpg",
         "highlightlink": "https://youtu.be/JAU8aWWs41g",
-        "fullreactionlink": "MISSING",
+        "fullreactionlink": "https://www.youtube.com/watch?v=_bllaphBz4k",
         "tags": "['mcu', 'marvel', 'sci-fi', 'action', 'super hero']",
         "uploaddate": 1670025600000
     },
@@ -227,7 +227,7 @@ const tilesData = [
         "Name": "Avengers: Age of Ultron",
         "Thumbnail src": "http://i3.ytimg.com/vi/4t62Lknta1s/maxresdefault.jpg",
         "highlightlink": "https://youtu.be/4t62Lknta1s",
-        "fullreactionlink": "MISSING",
+        "fullreactionlink": "https://www.patreon.com/posts/age-of-ultron-93723256",
         "tags": "['mcu', 'marvel', 'sci-fi', 'action', 'super hero']",
         "uploaddate": 1675296000000
     },
@@ -264,18 +264,50 @@ const tilesData = [
         "uploaddate": 1701321600000
     },
     {
-        "Name": "Daredevil (Season 1)",
-        "Thumbnail src": "https://i3.ytimg.com/vi/jAy6NJ_D5vU/maxresdefault.jpg", 
-        "highlightlink": "https://youtu.be/jAy6NJ_D5vU",
+        "Name": "Back to the Future Part II",
+        "Thumbnail src": "https://i3.ytimg.com/vi/OlOtpLSHVPk/maxresdefault.jpg",
+        "highlightlink": "https://www.youtube.com/watch?v=OlOtpLSHVPk",
+        "fullreactionlink": "https://www.patreon.com/posts/back-to-part-2-93969869",
+        "tags": "['scifi', 'adventure']",
+        "uploaddate": 1702669957000
+    },
+    {
+        "Name": "The Martian",
+        "Thumbnail src": "https://i3.ytimg.com/vi/7Sq_JTTQirE/maxresdefault.jpg",
+        "highlightlink": "https://www.youtube.com/watch?v=7Sq_JTTQirE",
+        "fullreactionlink": "https://www.patreon.com/posts/martian-full-94846952",
+        "tags": "['scifi', 'adventure']",
+        "uploaddate": 1703188357000
+    },
+    {
+        "Name": "Doctor Strange",
+        "Thumbnail src": "https://i3.ytimg.com/vi/_cpWwoDrKEk/maxresdefault.jpg",
+        "highlightlink": "https://www.youtube.com/watch?v=_cpWwoDrKEk",
+        "fullreactionlink": "https://www.patreon.com/posts/doctor-strange-95189962",
+        "tags": "['scifi', 'superhero']",
+        "uploaddate": 1706817157000
+    },
+    {
+        "Name": "Jurassic Park",
+        "Thumbnail src": "https://i3.ytimg.com/vi/LFiNLEId7HE/maxresdefault.jpg",
+        "highlightlink": "https://www.youtube.com/watch?v=LFiNLEId7HE",
+        "fullreactionlink": "https://www.patreon.com/posts/jurassic-park-112122527",
+        "tags": "['scifi', 'adventure']",
+        "uploaddate": 1726426357000
+    },
+    {
+        "Name": "COMING SOON",
+        "Thumbnail src": "-", 
+        "highlightlink": "-",
         "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-77838704",
         "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
         "uploaddate": 1674777600000,
         "type": "tv show" 
     },
     {
-        "Name": "Daredevil (Season 2)",
-        "Thumbnail src": "https://i3.ytimg.com/vi/m5_A0WxKdCU/maxresdefault.jpg",
-        "highlightlink": "https://youtu.be/m5_A0WxKdCU",
+        "Name": "COMING SOON",
+        "Thumbnail src": "-",
+        "highlightlink": "-",
         "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-78691657",
         "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
         "uploaddate": 1676505600000,
