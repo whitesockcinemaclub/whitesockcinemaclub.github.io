@@ -296,14 +296,108 @@ const tilesData = [
         "uploaddate": 1726426357000
     },
     {
-        "Name": "COMING SOON",
-        "Thumbnail src": "-", 
-        "highlightlink": "-",
-        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-77838704",
-        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
-        "uploaddate": 1674777600000,
-        "type": "tv show" 
+        "Name": "Ghostbusters",
+        "Thumbnail src": "https://i3.ytimg.com/vi/kCo5neU3xzk/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/kCo5neU3xzk",
+        "fullreactionlink": "https://www.patreon.com/posts/ghostbusters-112255719?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "tags": "['scifi', 'comedy']",
+        "uploaddate": 1726594086000
     },
+    {
+        "Name": "The Lord of the Rings: The Fellowship of the Ring Part 1",
+        "Thumbnail src": "https://i3.ytimg.com/vi/_skaOZa3vQg/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/_skaOZa3vQg",
+        "fullreactionlink": "https://www.patreon.com/posts/lotr-fellowship-112450795?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "tags": "['adventure', 'fantasy', 'lotr', 'lord of the rings']",
+        "uploaddate": 1726853286000
+    },
+    {
+        "Name": "The Lord of the Rings: The Fellowship of the Ring Part 2",
+        "Thumbnail src": "https://i3.ytimg.com/vi/I6gGbLSuDFw/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/I6gGbLSuDFw",
+        "fullreactionlink": "https://www.patreon.com/posts/lotr-fellowship-112450795?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "tags": "['adventure', 'fantasy', 'lotr', 'lord of the rings']",
+        "uploaddate": 1726939686000
+    },
+    {
+        "Name": "Sicario",
+        "Thumbnail src": "https://i3.ytimg.com/vi/sQTTtqVE8AA/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/sQTTtqVE8AA",
+        "fullreactionlink": "notavailable",
+        "tags": "['action', 'crime']",
+        "uploaddate": 1727285286000
+    },
+    {
+        "Name": "The Lord of the Rings: Two Towers Part 1",
+        "Thumbnail src": "https://i3.ytimg.com/vi/pPpFAc3wqGw/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/pPpFAc3wqGw",
+        "fullreactionlink": "https://www.patreon.com/posts/lotr-two-towers-112907227?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "tags": "['adventure', 'fantasy', 'lotr', 'lord of the rings']",
+        "uploaddate": 1727803686000
+    },
+    {
+        "Name": "The Lord of the Rings: Two Towers Part 2",
+        "Thumbnail src": "https://i3.ytimg.com/vi/bGqSNoos2uY/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/bGqSNoos2uY",
+        "fullreactionlink": "https://www.patreon.com/posts/lotr-two-towers-112907227?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "tags": "['adventure', 'fantasy', 'lotr', 'lord of the rings']",
+        "uploaddate": 1727890086000
+    },
+    {
+        "Name": "Saving Private Ryan",
+        "Thumbnail src": "https://i3.ytimg.com/vi/OkGNmccF4LM/maxresdefault.jpg", 
+        "highlightlink": "https://youtu.be/OkGNmccF4LM",
+        "fullreactionlink": "hhttps://www.patreon.com/posts/saving-private-113842815?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "tags": "['action', 'war']",
+        "uploaddate": 1728754086000
+    },
+    {
+        "Name": "The Lord of the Rings: The Return of the King Part 1",
+        "Thumbnail src": "https://i3.ytimg.com/vi/F8f0R60JJp8/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/F8f0R60JJp8",
+        "fullreactionlink": "https://www.patreon.com/posts/lotr-return-of-113953392?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "tags": "['adventure', 'fantasy', 'lotr', 'lord of the rings']",
+        "uploaddate": 1729704486000
+    },
+    {
+        "Name": "The Lord of the Rings: The Return of the King Part 2",
+        "Thumbnail src": "https://i3.ytimg.com/vi/w1N1igBScpw/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/w1N1igBScpw",
+        "fullreactionlink": "https://www.patreon.com/posts/lotr-return-of-113953392?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "tags": "['adventure', 'fantasy', 'lotr', 'lord of the rings']",
+        "uploaddate": 1729877286000
+    },
+    {
+        "Name": "Predator",
+        "Thumbnail src": "https://i3.ytimg.com/vi/LmhKLexOGfQ/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/LmhKLexOGfQ",
+        "fullreactionlink": "https://www.patreon.com/posts/predator-full-74984964",
+        "tags": "['action']",
+        "uploaddate": 1729963686000
+    },
+    {
+        "Name": "Predator 2",
+        "Thumbnail src": "https://i3.ytimg.com/vi/fUFDoxUJ0w0/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/fUFDoxUJ0w0",
+        "fullreactionlink": "https://www.patreon.com/posts/predator-2-full-113576191?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "tags": "['action']",
+        "uploaddate": 1730140086000
+    },
+    {
+        "Name": "Halloween",
+        "Thumbnail src": "https://i3.ytimg.com/vi/0EwztvgyMhE/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/0EwztvgyMhE",
+        "fullreactionlink": "https://www.patreon.com/posts/halloween-1978-113694745?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "tags": "['horror']",
+        "uploaddate": 1730399286000
+    },
+    {
+        "Name": "The Matrix",
+        "Thumbnail src": "https://i3.ytimg.com/vi/76nk7Sp1s10/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/76nk7Sp1s10",
+        "fullreactionlink": "https://www.patreon.com/posts/matrix-full-114391255?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "tags": "['action', 'scifi']",
+        "uploaddate": 1730485686000
     {
         "Name": "COMING SOON",
         "Thumbnail src": "-",
