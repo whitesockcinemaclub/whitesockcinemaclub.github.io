@@ -416,8 +416,8 @@ const tilesData = [
         "uploaddate": 1670025600002
     },
     {
-        "Name": "COMING SOON",
-        "Thumbnail src": "-",
+        "Name": "Breaking Bad",
+        "Thumbnail src": "https://ibb.co/Dz3vfTb",
         "highlightlink": "-",
         "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-78691657",
         "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
