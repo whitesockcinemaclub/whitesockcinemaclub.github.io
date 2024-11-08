@@ -400,6 +400,22 @@ const tilesData = [
         "uploaddate": 1730485686000
     },
     {
+        "Name": "Alien",
+        "Thumbnail src": "https://i.ibb.co/tH4CKs6/jggsnovh70n31.png",
+        "highlightlink": "https://youtu.be/9Q3dfNhYpBA",
+        "fullreactionlink": "https://www.patreon.com/posts/69050663/",
+        "tags": "['action', 'scifi', 'horror']",
+        "uploaddate": 1670025600001
+    },
+    {
+        "Name": "Aliens",
+        "Thumbnail src": "https://i.ibb.co/crsj2Kn/Best-gifts-for-fans-of-aliens.jpg",
+        "highlightlink": "https://youtu.be/LhvTDUvmagE",
+        "fullreactionlink": "-",
+        "tags": "['action', 'scifi', 'horror']",
+        "uploaddate": 1670025600002
+    },
+    {
         "Name": "COMING SOON",
         "Thumbnail src": "-",
         "highlightlink": "-",
