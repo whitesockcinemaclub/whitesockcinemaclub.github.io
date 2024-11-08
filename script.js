@@ -417,7 +417,7 @@ const tilesData = [
     },
     {
         "Name": "Breaking Bad",
-        "Thumbnail src": "https://ibb.co/Dz3vfTb",
+        "Thumbnail src": "https://i.ibb.co/Gng8QNJ/breaking-bad-desert-promo-h7l0qw7e5273j17s.jpg",
         "highlightlink": "-",
         "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-78691657",
         "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
