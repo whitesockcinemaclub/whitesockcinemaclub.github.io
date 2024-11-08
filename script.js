@@ -465,39 +465,45 @@ const createTile = (tile) => {
             </div>
         `;
     }
-}
+};
+
 
 const populateTiles = (data) => {
     const tilesContainer = document.querySelector('.tiles-container');
     tilesContainer.innerHTML = data.map(createTile).join('');
-}
+};
+
+const sortAndFilterTiles = (searchValue = "") => {
+    let filteredTiles = [];
+
+    if (isShowingTVShows) {
+        filteredTiles = tilesData.filter(tile => tile.type === "tv show");
+    } else if (isShowingEpisodes) {
+        filteredTiles = tilesData.filter(tile => tile.type === "episode" && tile.season === currentSeason);
+    } else {
+        filteredTiles = tilesData.filter(tile => !tile.type || tile.type === "movie");
+    }
+
+    if (searchValue) {
+        filteredTiles = filteredTiles.filter(tile =>
+            tile['Name'].toLowerCase().includes(searchValue) ||
+            tile['tags'].toLowerCase().includes(searchValue)
+        );
+    }
+
+    if (btnNewest.classList.contains('active')) {
+        filteredTiles.sort((a, b) => new Date(b['uploaddate']) - new Date(a['uploaddate']));
+    } else {
+        filteredTiles.sort((a, b) => new Date(a['uploaddate']) - new Date(b['uploaddate']));
+    }
+
+    populateTiles(filteredTiles);
+};
+
 
 const searchTiles = () => {
     const searchValue = document.getElementById('search-bar').value.toLowerCase();
-
-    if (isShowingTVShows) {
-        const tvShows = tilesData.filter(tile => tile.type === "tv show");
-        const filteredTiles = tvShows.filter(tile =>
-            tile['Name'].toLowerCase().includes(searchValue) ||
-            tile['tags'].toLowerCase().includes(searchValue)
-        );
-        populateTiles(filteredTiles);
-    } else if (isShowingEpisodes) {
-        // Filter by currentSeason FIRST, then search within those episodes
-        const currentSeasonEpisodes = tilesData.filter(tile => tile.type === "episode" && tile.season === currentSeason); 
-        const filteredTiles = currentSeasonEpisodes.filter(tile =>
-            tile['Name'].toLowerCase().includes(searchValue) ||
-            tile['tags'].toLowerCase().includes(searchValue)
-        );
-        populateTiles(filteredTiles);
-    } else { // Movies grid
-        const movies = tilesData.filter(tile => !tile.type || tile.type === "movie");
-        const filteredTiles = movies.filter(tile =>
-            tile['Name'].toLowerCase().includes(searchValue) ||
-            tile['tags'].toLowerCase().includes(searchValue)
-        );
-        populateTiles(filteredTiles);
-    }
+    sortAndFilterTiles(searchValue);
 };
 
 document.getElementById('search-bar').addEventListener('input', searchTiles);
@@ -510,51 +516,57 @@ let isShowingTVShows = false;
 let isShowingEpisodes = false;
 let currentSeason = null;
 
+
 const sortNewest = () => {
-    const currentTiles = isShowingTVShows ? tilesData.filter(tile => tile.type === "tv show") : tilesData.filter(tile => !tile.type || tile.type === "movie");
-    const sortedTiles = [...currentTiles].sort((a, b) => new Date(b['uploaddate']) - new Date(a['uploaddate']));
-    populateTiles(sortedTiles);
+    sortAndFilterTiles();
     btnNewest.classList.add('active');
     btnOldest.classList.remove('active');
 };
 
 const sortOldest = () => {
-    const currentTiles = isShowingTVShows ? tilesData.filter(tile => tile.type === "tv show") : tilesData.filter(tile => !tile.type || tile.type === "movie");
-    const sortedTiles = [...currentTiles].sort((a, b) => new Date(a['uploaddate']) - new Date(b['uploaddate']));
-    populateTiles(sortedTiles);
+    sortAndFilterTiles();
     btnOldest.classList.add('active');
     btnNewest.classList.remove('active');
 };
 
 const toggleTVShows = () => {
-    if (isShowingEpisodes) { // If currently showing episodes (inside a season)
+    if (isShowingEpisodes) {
         isShowingEpisodes = false;
-        isShowingTVShows = true; // Go back to showing the TV show grid
-        btnTVShows.textContent = "Movies"; // Change button text back to "Movies"
+        isShowingTVShows = true;
+        btnTVShows.textContent = "Movies";
         const tvShows = tilesData.filter(tile => tile.type === "tv show");
         populateTiles(tvShows);
-    } else { // If currently showing movies or TV shows grid
-        isShowingTVShows = !isShowingTVShows; 
+        sortNewest();
+    } else {
+        isShowingTVShows = !isShowingTVShows;
 
         if (isShowingTVShows) {
             btnTVShows.textContent = "Movies";
             btnTVShows.classList.add('active');
             const tvShows = tilesData.filter(tile => tile.type === "tv show");
-            populateTiles(tvShows);
+            populateTiles(tvShows);            
+            sortNewest();
+
         } else {
             btnTVShows.textContent = "TV Shows";
             btnTVShows.classList.remove('active');
             const movies = tilesData.filter(tile => !tile.type || tile.type === "movie");
             populateTiles(movies);
+            sortNewest();
+
         }
     }
 };
 
-sortNewest();
+
+sortNewest(); // Initial sort on load
+
 
 btnNewest.addEventListener('click', sortNewest);
 btnOldest.addEventListener('click', sortOldest);
 btnTVShows.addEventListener('click', toggleTVShows);
+
+
 
 document.addEventListener('click', (event) => {
     if (event.target.classList.contains('all-episodes-link')) {
@@ -563,6 +575,7 @@ document.addEventListener('click', (event) => {
         populateTiles(episodes);
         btnTVShows.textContent = "Back";
         isShowingEpisodes = true;
-        currentSeason = seasonName; // Update currentSeason when "All Episodes" is clicked
+        currentSeason = seasonName;
+        sortNewest();
     }
 });
