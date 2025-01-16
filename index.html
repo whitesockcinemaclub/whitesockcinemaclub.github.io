@@ -1,27 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>White Sock Cinema Club</title>
+    <title>Aleksandra & Pete Watch Everything</title>
+    <link rel="icon" type="image/png" href="https://i.ibb.co/fM1XJrm/favicon2.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/asu3wit.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap">
 </head>
 <body>
-    <header>
-        <img src=https://i.ibb.co/ByDdRmL/websiteheader1.png" width="20%" alt="Logo" class="logo">
-    </header>
-    <main>
-        <div class="search-container">
-            <button id="show-tv-shows">TV Shows</button>
-            <input type="text" id="search-bar" placeholder="Search...">
-            <button id="sort-newest">Newest</button>
-            <button id="sort-oldest">Oldest</button>
+    <div class="landing-page">
+        <header>
+            <img src="https://i.ibb.co/7CJ5x9G/APwatchtransparent.png" alt="Logo" class="logo">
+        </header>
+        <div class="landing-buttons">
+            <button id="go-to-movies" class="massive-button">MOVIES</button>
+            <button id="go-to-tv-shows" class="massive-button">TV SHOWS</button>
         </div>
-        <div class="tiles-container">
-        </div>
-    </main>
+    </div>
+
+    <div class="main-content" style="display: none;">
+        <header>
+            <img src="https://i.ibb.co/7CJ5x9G/APwatchtransparent.png" alt="Logo" class="logo">
+        </header>
+        <main>
+            <div class="search-container">
+                <button id="show-tv-shows" data-view-state="movies">TV Shows</button>
+                <input type="text" id="search-bar" placeholder="Search...">
+                <button id="sort-newest">Newest</button>
+                <button id="sort-oldest">Oldest</button>
+            </div>
+            <div class="tiles-container">
+            </div>
+        </main>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

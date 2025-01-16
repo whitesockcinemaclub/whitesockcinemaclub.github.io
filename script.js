@@ -432,13 +432,137 @@ const tilesData = [
         "uploaddate": 1730485686002
     },
     {
-        "Name": "Breaking Bad",
-        "Thumbnail src": "https://i.ibb.co/Gng8QNJ/breaking-bad-desert-promo-h7l0qw7e5273j17s.jpg",
-        "highlightlink": "-",
-        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-78691657",
-        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
+        "Name": "Guardians of the Galaxy Vol 2.",
+        "Thumbnail src": "https://i3.ytimg.com/vi/fGRtWIY-3Os/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/fGRtWIY-3Os",
+        "fullreactionlink": "https://www.patreon.com/posts/112874124/",
+        "tags": "['action', 'scifi', 'marvel', 'mcu']",
+        "uploaddate": 1730485686003
+    },
+    {
+        "Name": "No Country for Old Men",
+        "Thumbnail src": "https://i3.ytimg.com/vi/aA1SAxPEiPg/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/aA1SAxPEiPg",
+        "fullreactionlink": "https://www.patreon.com/posts/116341296",
+        "tags": "['action', 'western', 'drama']",
+        "uploaddate": 1730485686004
+    },
+    {
+        "Name": "Breaking Bad Season 1",
+        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
+        "tags": "['crime', 'tv show']",
         "uploaddate": 1676505600000,
-        "type": "tv show"
+        "type": "tv show",
+        "series": "Breaking Bad"
+    },
+    {
+        "Name": "Season 1 Episode 1",
+        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
+        "highlightlink": "https://example.com/bb-s1-ep1-highlight",
+        "fullreactionlink": "https://example.com/bb-s1-ep1-full",
+        "tags": "['crime', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Breaking Bad",
+        "season": "Breaking Bad Season 1"
+    },
+    {
+        "Name": "Season 1 Episode 2",
+        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
+        "highlightlink": "https://example.com/bb-s1-ep2-highlight",
+        "fullreactionlink": "https://example.com/bb-s1-ep2-full",
+        "tags": "['crime', 'tv show', 'episode']",
+        "uploaddate": 1676678400000,
+        "type": "episode",
+        "series": "Breaking Bad",
+        "season": "Breaking Bad Season 1"
+    },
+    {
+        "Name": "Doctor Who Series 1",
+        "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
+        "tags": "['scifi', 'adventure', 'tv show']",
+        "uploaddate": 1676505600000,
+        "type": "tv show",
+        "series": "Doctor Who"
+    },
+    {
+        "Name": "Series 1 Episode 1",
+        "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
+        "highlightlink": "https://example.com/dw-s1-ep1-highlight",
+        "fullreactionlink": "https://example.com/dw-s1-ep1-full",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Doctor Who",
+        "season": "Doctor Who Series 1"
+    },
+    {
+        "Name": "Series 1 Episode 2",
+        "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
+        "highlightlink": "https://example.com/dw-s1-ep1-highlight",
+        "fullreactionlink": "https://example.com/dw-s1-ep1-full",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Doctor Who",
+        "season": "Doctor Who Series 1"
+    },
+    {
+        "Name": "Firefly",
+        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
+        "tags": "['scifi', 'adventure', 'tv show']",
+        "uploaddate": 1676505600000,
+        "type": "tv show",
+        "series": "Firefly"
+    },
+    {
+        "Name": "Episode 1",
+        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
+        "highlightlink": "https://example.com/dw-s1-ep1-highlight",
+        "fullreactionlink": "https://example.com/dw-s1-ep1-full",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Firefly",
+        "season": "Firefly Season 1"
+    },
+    {
+        "Name": "Severance Season 2",
+        "Thumbnail src": "https://i.ibb.co/hBK7HDd/SESeason1.png",
+        "tags": "['scifi', 'mystery', 'tv show']",
+        "uploaddate": 1676505600001,
+        "type": "tv show",
+        "series": "Severance"
+    },
+    {
+        "Name": "Season 2 Episode 1",
+        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
+        "highlightlink": "https://example.com/dw-s1-ep1-highlight",
+        "fullreactionlink": "https://example.com/dw-s1-ep1-full",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Severance",
+        "season": "Severance Season 2"
+    },
+    {
+        "Name": "The Good Place Season 1",
+        "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
+        "tags": "['comedy', 'mystery', 'tv show']",
+        "uploaddate": 1676505600000,
+        "type": "tv show",
+        "series": "The Good Place"
+    },
+    {
+        "Name": "Season 1 Episode 1",
+        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
+        "highlightlink": "https://example.com/dw-s1-ep1-highlight",
+        "fullreactionlink": "https://example.com/dw-s1-ep1-full",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "The Good Place",
+        "season": "The Good Place Season 1"
     },
     {
         "Name": "Temp",
@@ -454,20 +578,40 @@ const tilesData = [
 ];
 
 
+const landingPage = document.querySelector('.landing-page');
+const mainContent = document.querySelector('.main-content');
+const moviesButton = document.getElementById('go-to-movies');
+const tvShowsButton = document.getElementById('go-to-tv-shows');
+
+let currentViewState = 'movies'; // Tracks the current grid view: 'movies', 'tvshows', 'episodes'
+
 const createTile = (tile) => {
     if (tile.type === "tv show") {
         return `
             <div class="tile">
                 <div class="thumbnail-container">
                     <img src="${tile['Thumbnail src']}" alt="${tile['Name']}" class="thumbnail">
-                    <a href="#" class="all-episodes-link" data-season="${tile['Name']}">All Episodes</a> 
+                    <a href="#" class="view-episodes-link" data-series="${tile['series']}" data-season="${tile['Name']}">View Episodes</a>
                 </div>
                 <div class="tile-info">
                     <h4>${tile['Name']}</h4>
                 </div>
             </div>
         `;
-    } else { // For movies and episodes
+    } else if (tile.type === "episode") {
+        return `
+            <div class="tile">
+                <div class="thumbnail-container">
+                    <img src="${tile['Thumbnail src']}" alt="${tile['Name']}" class="thumbnail">
+                    <a href="${tile['highlightlink']}" class="highlight-link">Reaction</a>
+                    <a href="${tile['fullreactionlink']}" class="full-reaction-link">Full Length</a>
+                </div>
+                <div class="tile-info">
+                    <h4>${tile['Name']}</h4>
+                </div>
+            </div>
+        `;
+    } else { // Assuming 'movie' or no type implies movie
         return `
             <div class="tile">
                 <div class="thumbnail-container">
@@ -489,13 +633,14 @@ const populateTiles = (data) => {
 };
 
 const sortAndFilterTiles = (searchValue = "") => {
-    let filteredTiles = [];
+    let filteredTiles = tilesData; // Assuming tilesData is defined elsewhere
 
-    if (isShowingTVShows) {
+    if (currentViewState === "tvshows") {
         filteredTiles = tilesData.filter(tile => tile.type === "tv show");
-    } else if (isShowingEpisodes) {
-        filteredTiles = tilesData.filter(tile => tile.type === "episode" && tile.season === currentSeason);
-    } else {
+    } else if (currentViewState === "episodes") {
+        const selectedSeason = document.querySelector('.tiles-container').dataset.currentSeason;
+        filteredTiles = tilesData.filter(tile => tile.type === "episode" && tile.season === selectedSeason);
+    } else { // currentViewState === "movies"
         filteredTiles = tilesData.filter(tile => !tile.type || tile.type === "movie");
     }
 
@@ -526,14 +671,10 @@ const btnNewest = document.getElementById('sort-newest');
 const btnOldest = document.getElementById('sort-oldest');
 const btnTVShows = document.getElementById('show-tv-shows');
 
-let isShowingTVShows = false;
-let isShowingEpisodes = false;
-let currentSeason = null;
-
 const sortNewest = () => {
     btnNewest.classList.add('active');
     btnOldest.classList.remove('active');
-    sortAndFilterTiles(); 
+    sortAndFilterTiles();
 };
 
 const sortOldest = () => {
@@ -542,31 +683,89 @@ const sortOldest = () => {
     sortAndFilterTiles();
 };
 
-const toggleTVShows = () => { //Simplified logic, sorting handled elsewhere
-    if (isShowingEpisodes) {
-        isShowingEpisodes = false;
-        isShowingTVShows = true;
-        btnTVShows.textContent = "Movies";
-    } else {
-        isShowingTVShows = !isShowingTVShows;
-        btnTVShows.textContent = isShowingTVShows ? "Movies" : "TV Shows";
-    }
-    sortNewest(); //Always sort newest after toggling views
+const showMovies = () => {
+    currentViewState = 'movies';
+    landingPage.style.display = 'none';
+    mainContent.style.display = 'block';
+    btnTVShows.textContent = "TV Shows";
+    removeBackButton();
+    sortAndFilterTiles();
 };
 
-// Default to newest on initial load:
-btnNewest.classList.add('active');
-sortNewest(); // Call sortNewest to apply the initial sorting
+const showTVShowsGrid = () => {
+    currentViewState = 'tvshows';
+    landingPage.style.display = 'none';
+    mainContent.style.display = 'block';
+    btnTVShows.textContent = "Movies";
+    removeBackButton();
+    sortAndFilterTiles();
+};
 
+const toggleTVShows = () => {
+    if (currentViewState === "movies") {
+        showTVShowsGrid();
+    } else {
+        showMovies();
+    }
+};
+
+const showEpisodes = (seriesName, seasonName) => {
+    currentViewState = 'episodes';
+    const tilesContainer = document.querySelector('.tiles-container');
+    tilesContainer.dataset.currentSeason = seasonName;
+    btnTVShows.textContent = "Back to Season View";
+    addBackButton();
+    sortAndFilterTiles();
+};
+
+const addBackButton = () => {
+    const searchContainer = document.querySelector('.search-container');
+    let backButton = document.getElementById('back-button');
+
+    if (!backButton) {
+        backButton = document.createElement('button');
+        backButton.id = 'back-button';
+        backButton.textContent = 'Back to Season View';
+        backButton.addEventListener('click', () => {
+            showTVShowsGrid();
+        });
+
+        // Insert as the first child of searchContainer
+        searchContainer.insertBefore(backButton, searchContainer.firstChild);
+    }
+};
+
+const removeBackButton = () => {
+    const existingBackButton = document.getElementById('back-button');
+    if (existingBackButton) {
+        existingBackButton.remove();
+    }
+};
+
+// Event listeners for landing page buttons
+moviesButton.addEventListener('click', showMovies);
+tvShowsButton.addEventListener('click', showTVShowsGrid);
+
+// Event listeners for main content buttons
 btnNewest.addEventListener('click', sortNewest);
 btnOldest.addEventListener('click', sortOldest);
-btnTVShows.addEventListener('click', toggleTVShows);
-
-
-document.addEventListener('click', (event) => {
-    if (event.target.classList.contains('all-episodes-link')) {
-        // ... (logic to show episodes remains unchanged)
-        sortNewest(); // Sort by newest when showing all episodes
-
+btnTVShows.addEventListener('click', () => {
+    if (currentViewState === 'episodes') {
+        showTVShowsGrid();
+    } else {
+        toggleTVShows();
     }
 });
+
+// Event listener for "View Episodes" links using event delegation
+document.querySelector('.main-content').addEventListener('click', (event) => {
+    if (event.target.classList.contains('view-episodes-link')) {
+        event.preventDefault();
+        const seriesName = event.target.dataset.series;
+        const seasonName = event.target.dataset.season;
+        showEpisodes(seriesName, seasonName);
+    }
+});
+
+// Initial load - Keep only the landing page visible
+mainContent.style.display = 'none';
