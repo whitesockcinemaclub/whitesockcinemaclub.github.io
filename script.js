@@ -1,7 +1,7 @@
 const tilesData = [
     {
         "Name": "Oppenheimer",
-        "Thumbnail src": "https://i3.ytimg.com/vi/XRejEcValfE/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/35Mqnd8D/oppenheimer6.webp",
         "highlightlink": "https://www.youtube.com/watch?v=XRejEcValfE",
         "fullreactionlink": "https://www.patreon.com/posts/oppenheimer-full-93422871",
         "tags": "['oppenheimer', 'biopic', 'history']",
