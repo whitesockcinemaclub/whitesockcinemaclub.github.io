@@ -9,7 +9,7 @@ const tilesData = [
     },
     {
         "Name": "Indiana Jones and the Temple of Doom",
-        "Thumbnail src": "https://i3.ytimg.com/vi/1ekpphPfPnw/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/nN1F93wK/templeofdoom.webp",
         "highlightlink": "https://youtu.be/1ekpphPfPnw",
         "fullreactionlink": "https://www.patreon.com/posts/indiana-jones-of-93311734",
         "tags": "['indiana jones and the temple of doom', 'adventure', 'action', 'classic']",
@@ -17,7 +17,7 @@ const tilesData = [
     },
     {
         "Name": "The Running Man",
-        "Thumbnail src": "http://i3.ytimg.com/vi/J47rgAO1dHc/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/V7hFFGK/runningman.webp",
         "highlightlink": "https://youtu.be/J47rgAO1dHc",
         "fullreactionlink": "https://www.patreon.com/posts/running-man-full-93024989",
         "tags": "['the running man', 'sci-fi', 'action', 'classic']",
@@ -25,7 +25,7 @@ const tilesData = [
     },
     {
         "Name": "Star Wars Episode IV: A New hope",
-        "Thumbnail src": "http://i3.ytimg.com/vi/5elCEoTZMI4/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/xKxYs6rL/newhope.webp",
         "highlightlink": "https://youtu.be/5elCEoTZMI4",
         "fullreactionlink": "https://www.patreon.com/posts/star-wars-iv-new-68027921",
         "tags": "['star wars', 'sci-fi', 'fantasy', 'adventure', 'classic']",
@@ -33,7 +33,7 @@ const tilesData = [
     },
     {
         "Name": "Iron Man",
-        "Thumbnail src": "http://i3.ytimg.com/vi/arrogOKeLGw/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/mVT5V5ZM/ironman.webp",
         "highlightlink": "https://youtu.be/arrogOKeLGw",
         "fullreactionlink": "https://www.patreon.com/posts/iron-man-full-68028558",
         "tags": "['mcu', 'marvel', 'sci-fi', 'action', 'super hero']",
@@ -41,7 +41,7 @@ const tilesData = [
     },
     {
         "Name": "Star Wars Episode V: Empire Strikes Back",
-        "Thumbnail src": "http://i3.ytimg.com/vi/LB6hr72SeP0/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/p6Zpcrxd/empire.webp",
         "highlightlink": "https://youtu.be/LB6hr72SeP0",
         "fullreactionlink": "https://www.patreon.com/posts/star-wars-v-back-68028765",
         "tags": "['star wars', 'sci-fi', 'fantasy', 'adventure', 'classic']",
@@ -49,7 +49,7 @@ const tilesData = [
     },
     {
         "Name": "Top Gun",
-        "Thumbnail src": "http://i3.ytimg.com/vi/w-Aio6atZD4/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/0VJ97QjP/topgun.webp",
         "highlightlink": "https://youtu.be/w-Aio6atZD4",
         "fullreactionlink": "https://www.patreon.com/posts/top-gun-full-68529362",
         "tags": "['action', 'war', 'classic', 'bromance']",
@@ -57,7 +57,7 @@ const tilesData = [
     },
     {
         "Name": "The Incredible Hulk",
-        "Thumbnail src": "http://i3.ytimg.com/vi/Tp37FCWeDbg/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/1Jzm3mJz/hulk.webp",
         "highlightlink": "https://youtu.be/Tp37FCWeDbg",
         "fullreactionlink": "https://www.patreon.com/posts/incredible-hulk-68281586",
         "tags": "['mcu', 'marvel', 'sci-fi', 'action', 'super hero']",
@@ -65,7 +65,7 @@ const tilesData = [
     },
     {
         "Name": "Star Wars Episode VI: Return of the Jedi",
-        "Thumbnail src": "http://i3.ytimg.com/vi/JyvpdwbtAbA/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/0pdLy8fK/returnofthejedi.webp",
         "highlightlink": "https://youtu.be/JyvpdwbtAbA",
         "fullreactionlink": "https://www.patreon.com/posts/star-wars-vi-of-68375907",
         "tags": "['star wars', 'sci-fi', 'fantasy', 'adventure', 'classic']",
@@ -73,7 +73,7 @@ const tilesData = [
     },
     {
         "Name": "Iron Man 2",
-        "Thumbnail src": "http://i3.ytimg.com/vi/teJP3J0ah7Y/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/BVcbBDcB/ironman2.webp",
         "highlightlink": "https://youtu.be/teJP3J0ah7Y",
         "fullreactionlink": "https://www.patreon.com/posts/iron-man-2-full-68696787",
         "tags": "['mcu', 'marvel', 'sci-fi', 'action', 'super hero']",
@@ -81,7 +81,7 @@ const tilesData = [
     },
     {
         "Name": "Star Wars Episode I: The Phantom Menace",
-        "Thumbnail src": "http://i3.ytimg.com/vi/rylPR7yznsc/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/zWXxrty2/phantommenace.webp",
         "highlightlink": "https://youtu.be/rylPR7yznsc",
         "fullreactionlink": "https://www.patreon.com/posts/star-wars-menace-68782974",
         "tags": "['star wars', 'sci-fi', 'fantasy', 'adventure']",
@@ -89,7 +89,7 @@ const tilesData = [
     },
     {
         "Name": "Star Wars Episode II: Attack of the Clones",
-        "Thumbnail src": "http://i3.ytimg.com/vi/fb7D61n1aKU/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/bj6KzH7Z/attackclones.webp",
         "highlightlink": "https://youtu.be/fb7D61n1aKU",
         "fullreactionlink": "https://www.patreon.com/posts/star-wars-ii-of-69142131",
         "tags": "['star wars', 'sci-fi', 'fantasy', 'adventure']",
@@ -97,7 +97,7 @@ const tilesData = [
     },
     {
         "Name": "Thor",
-        "Thumbnail src": "http://i3.ytimg.com/vi/5QalC9RtnxA/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/hq5Z99P/thor.webp",
         "highlightlink": "https://youtu.be/5QalC9RtnxA",
         "fullreactionlink": "https://www.patreon.com/posts/thor-full-69050822",
         "tags": "['mcu', 'marvel', 'fantasy', 'action', 'super hero']",
@@ -105,7 +105,7 @@ const tilesData = [
     },
     {
         "Name": "Star Wars Episode III: Revenge of the Sith",
-        "Thumbnail src": "http://i3.ytimg.com/vi/Pq38zpirVD4/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/fzxcC9Yd/revengeofsith.webp",
         "highlightlink": "https://youtu.be/Pq38zpirVD4",
         "fullreactionlink": "https://www.patreon.com/posts/star-wars-of-74488358",
         "tags": "['star wars', 'sci-fi', 'fantasy', 'adventure']",
@@ -113,7 +113,7 @@ const tilesData = [
     },
     {
         "Name": "Captain America: The First Avenger",
-        "Thumbnail src": "http://i3.ytimg.com/vi/TVEfDZkCy18/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/JRQjBMCQ/captainamerica.webp",
         "highlightlink": "https://youtu.be/TVEfDZkCy18",
         "fullreactionlink": "https://www.patreon.com/posts/captain-america-69353726",
         "tags": "['mcu', 'marvel', 'sci-fi', 'action', 'super hero', 'period piece']",
@@ -121,7 +121,7 @@ const tilesData = [
     },
     {
         "Name": "Star Wars Episode VII: The Force Awakens",
-        "Thumbnail src": "http://i3.ytimg.com/vi/No6OF0jAKOM/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/vx0PY6Q0/forceawakens.webp",
         "highlightlink": "https://youtu.be/No6OF0jAKOM",
         "fullreactionlink": "https://www.patreon.com/posts/star-wars-force-74782269",
         "tags": "['star wars', 'sci-fi', 'fantasy', 'adventure']",
@@ -129,7 +129,7 @@ const tilesData = [
     },
     {
         "Name": "The Avengers",
-        "Thumbnail src": "http://i3.ytimg.com/vi/x7M3pkgHL00/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/ycwgPLjX/avengers.webp",
         "highlightlink": "https://youtu.be/x7M3pkgHL00",
         "fullreactionlink": "https://www.patreon.com/posts/avengers-full-74851853",
         "tags": "['mcu', 'marvel', 'sci-fi', 'action', 'super hero']",
@@ -137,7 +137,7 @@ const tilesData = [
     },
     {
         "Name": "Star Wars Episode VIII: The Last Jedi",
-        "Thumbnail src": "http://i3.ytimg.com/vi/JuceyBYk0Bw/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/JjQP9QTg/lastjedi.webp",
         "highlightlink": "https://youtu.be/JuceyBYk0Bw",
         "fullreactionlink": "https://www.patreon.com/posts/star-wars-last-75035364",
         "tags": "['star wars', 'sci-fi', 'fantasy', 'adventure']",
@@ -145,7 +145,7 @@ const tilesData = [
     },
     {
         "Name": "Iron Man 3",
-        "Thumbnail src": "http://i3.ytimg.com/vi/JAU8aWWs41g/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/ccsBcHMP/ironman3.webp",
         "highlightlink": "https://youtu.be/JAU8aWWs41g",
         "fullreactionlink": "https://www.youtube.com/watch?v=_bllaphBz4k",
         "tags": "['mcu', 'marvel', 'sci-fi', 'action', 'super hero']",
