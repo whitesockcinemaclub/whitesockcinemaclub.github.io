@@ -527,25 +527,6 @@ const tilesData = [
         "season": "Firefly Season 1"
     },
     {
-        "Name": "Severance Season 2",
-        "Thumbnail src": "https://i.ibb.co/hBK7HDd/SESeason1.png",
-        "tags": "['scifi', 'mystery', 'tv show']",
-        "uploaddate": 1676505600001,
-        "type": "tv show",
-        "series": "Severance"
-    },
-    {
-        "Name": "Season 2 Episode 1",
-        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
-        "highlightlink": "https://example.com/dw-s1-ep1-highlight",
-        "fullreactionlink": "https://example.com/dw-s1-ep1-full",
-        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
-        "uploaddate": 1676592000000,
-        "type": "episode",
-        "series": "Severance",
-        "season": "Severance Season 2"
-    },
-    {
         "Name": "The Good Place Season 1",
         "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
         "tags": "['comedy', 'mystery', 'tv show']",
