@@ -456,28 +456,6 @@ const tilesData = [
         "series": "Breaking Bad"
     },
     {
-        "Name": "Season 1 Episode 1",
-        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
-        "highlightlink": "https://example.com/bb-s1-ep1-highlight",
-        "fullreactionlink": "https://example.com/bb-s1-ep1-full",
-        "tags": "['crime', 'tv show', 'episode']",
-        "uploaddate": 1676592000000,
-        "type": "episode",
-        "series": "Breaking Bad",
-        "season": "Breaking Bad Season 1"
-    },
-    {
-        "Name": "Season 1 Episode 2",
-        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
-        "highlightlink": "https://example.com/bb-s1-ep2-highlight",
-        "fullreactionlink": "https://example.com/bb-s1-ep2-full",
-        "tags": "['crime', 'tv show', 'episode']",
-        "uploaddate": 1676678400000,
-        "type": "episode",
-        "series": "Breaking Bad",
-        "season": "Breaking Bad Season 1"
-    },
-    {
         "Name": "Doctor Who Series 1",
         "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
         "tags": "['scifi', 'adventure', 'tv show']",
@@ -487,9 +465,9 @@ const tilesData = [
     },
     {
         "Name": "Series 1 Episode 1",
-        "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
-        "highlightlink": "https://example.com/dw-s1-ep1-highlight",
-        "fullreactionlink": "https://example.com/dw-s1-ep1-full",
+        "Thumbnail src": "https://i3.ytimg.com/vi/VA4425-XfpY/maxresdefault.jpg",
+        "highlightlink": "https://www.youtube.com/watch?v=VA4425-XfpY",
+        "fullreactionlink": "https://www.patreon.com/posts/121270273",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
         "type": "episode",
@@ -499,8 +477,41 @@ const tilesData = [
     {
         "Name": "Series 1 Episode 2",
         "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
-        "highlightlink": "https://example.com/dw-s1-ep1-highlight",
-        "fullreactionlink": "https://example.com/dw-s1-ep1-full",
+        "highlightlink": "https://www.patreon.com/posts/121270715",
+        "fullreactionlink": "https://www.patreon.com/posts/121270424/",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Doctor Who",
+        "season": "Doctor Who Series 1"
+    },
+    {
+        "Name": "Series 1 Episode 3",
+        "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
+        "highlightlink": "https://www.patreon.com/posts/121270767",
+        "fullreactionlink": "https://www.patreon.com/posts/121270495",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Doctor Who",
+        "season": "Doctor Who Series 1"
+    },
+    {
+        "Name": "Series 1 Episode 4",
+        "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/121270523",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Doctor Who",
+        "season": "Doctor Who Series 1"
+    },
+    {
+        "Name": "Series 1 Episode 5",
+        "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/121270573",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
         "type": "episode",
@@ -516,44 +527,12 @@ const tilesData = [
         "series": "Firefly"
     },
     {
-        "Name": "Episode 1",
-        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
-        "highlightlink": "https://example.com/dw-s1-ep1-highlight",
-        "fullreactionlink": "https://example.com/dw-s1-ep1-full",
-        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
-        "uploaddate": 1676592000000,
-        "type": "episode",
-        "series": "Firefly",
-        "season": "Firefly Season 1"
-    },
-    {
         "Name": "The Good Place Season 1",
         "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
         "tags": "['comedy', 'mystery', 'tv show']",
         "uploaddate": 1676505600000,
         "type": "tv show",
         "series": "The Good Place"
-    },
-    {
-        "Name": "Season 1 Episode 1",
-        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
-        "highlightlink": "https://example.com/dw-s1-ep1-highlight",
-        "fullreactionlink": "https://example.com/dw-s1-ep1-full",
-        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
-        "uploaddate": 1676592000000,
-        "type": "episode",
-        "series": "The Good Place",
-        "season": "The Good Place Season 1"
-    },
-    {
-        "Name": "Temp",
-        "Thumbnail src": "https://i3.ytimg.com/vi/jAy6NJ_D5vU/maxresdefault.jpg",
-        "highlightlink": "https://youtu.be/jAy6NJ_D5vU", 
-        "fullreactionlink": "https://www.patreon.com/posts/daredevil-season-77838704", 
-        "tags": "['marvel', 'netflix', 'superhero', 'tv show']",
-        "uploaddate": 1674777600000,
-        "type": "episode",
-        "season": "Seasonname"
     }
   
 ];
