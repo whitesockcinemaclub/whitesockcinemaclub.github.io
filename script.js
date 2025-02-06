@@ -469,7 +469,7 @@ const tilesData = [
     {
         "Name": "Season 1 Episode 2",
         "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
-        "highlightlink": "",
+        "highlightlink": "https://www.patreon.com/posts/121658131",
         "fullreactionlink": "https://www.patreon.com/posts/121595095",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
@@ -480,7 +480,7 @@ const tilesData = [
     {
         "Name": "Season 1 Episode 3",
         "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
-        "highlightlink": "",
+        "highlightlink": "https://www.patreon.com/posts/121658206",
         "fullreactionlink": "https://www.patreon.com/posts/121595275",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
