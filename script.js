@@ -455,6 +455,39 @@ const tilesData = [
         "type": "tv show",
         "series": "Breaking Bad"
     },
+     {
+        "Name": "Season 1 Episode 1",
+        "Thumbnail src": "hhttps://img.youtube.com/vi/d8lVICRKK9Q/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/d8lVICRKK9Q",
+        "fullreactionlink": "https://www.patreon.com/posts/121589217",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Breaking Bad",
+        "season": "Breaking Bad Series 1"
+    },
+    {
+        "Name": "Season 1 Episode 2",
+        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
+        "highlightlink": "",
+        "fullreactionlink": "https://www.patreon.com/posts/121595095",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Breaking Bad",
+        "season": "Breaking Bad Series 1"
+    },
+    {
+        "Name": "Season 1 Episode 3",
+        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
+        "highlightlink": "",
+        "fullreactionlink": "https://www.patreon.com/posts/121595275",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Breaking Bad",
+        "season": "Breaking Bad Series 1"
+    },
     {
         "Name": "Doctor Who Series 1",
         "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
