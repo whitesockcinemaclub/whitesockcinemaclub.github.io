@@ -457,7 +457,7 @@ const tilesData = [
     },
      {
         "Name": "Season 1 Episode 1",
-        "Thumbnail src": "hhttps://img.youtube.com/vi/d8lVICRKK9Q/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
         "highlightlink": "https://youtu.be/d8lVICRKK9Q",
         "fullreactionlink": "https://www.patreon.com/posts/121589217",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
@@ -489,6 +489,28 @@ const tilesData = [
         "season": "Breaking Bad Series 1"
     },
     {
+        "Name": "Season 1 Episode 4",
+        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
+        "highlightlink": "https://www.patreon.com/posts/122064540",
+        "fullreactionlink": "https://www.patreon.com/posts/121595356",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Breaking Bad",
+        "season": "Breaking Bad Series 1"
+    },
+    {
+        "Name": "Season 1 Episode 5",
+        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/121595405",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Breaking Bad",
+        "season": "Breaking Bad Series 1"
+    },
+    {
         "Name": "Doctor Who Series 1",
         "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
         "tags": "['scifi', 'adventure', 'tv show']",
@@ -498,7 +520,7 @@ const tilesData = [
     },
     {
         "Name": "Series 1 Episode 1",
-        "Thumbnail src": "https://i3.ytimg.com/vi/VA4425-XfpY/maxresdefault.jpg",
+        "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
         "highlightlink": "https://www.youtube.com/watch?v=VA4425-XfpY",
         "fullreactionlink": "https://www.patreon.com/posts/121270273",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
@@ -532,7 +554,7 @@ const tilesData = [
     {
         "Name": "Series 1 Episode 4",
         "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
-        "highlightlink": "comingsoon.html",
+        "highlightlink": "https://www.patreon.com/posts/121739637",
         "fullreactionlink": "https://www.patreon.com/posts/121270523",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
@@ -543,8 +565,19 @@ const tilesData = [
     {
         "Name": "Series 1 Episode 5",
         "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
-        "highlightlink": "comingsoon.html",
+        "highlightlink": "https://www.patreon.com/posts/121760251",
         "fullreactionlink": "https://www.patreon.com/posts/121270573",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Doctor Who",
+        "season": "Doctor Who Series 1"
+    },
+    {
+        "Name": "Series 1 Episode 6",
+        "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
+        "highlightlink": "https://www.patreon.com/posts/121790000",
+        "fullreactionlink": "https://www.patreon.com/posts/121790257",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
         "type": "episode",
@@ -560,12 +593,89 @@ const tilesData = [
         "series": "Firefly"
     },
     {
+        "Name": "Episode 1",
+        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
+        "highlightlink": "https://youtu.be/rGWYYd2h9z4",
+        "fullreactionlink": "https://www.patreon.com/posts/122229572",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Firefly",
+        "season": "Firefly Series 1"
+    },
+    {
+        "Name": "Episode 2",
+        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
+        "highlightlink": "hhttps://www.patreon.com/posts/122287222",
+        "fullreactionlink": "https://www.patreon.com/posts/122287345",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Firefly",
+        "season": "Firefly Series 1"
+    },
+    {
+        "Name": "Episode 3",
+        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/122287345",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Firefly",
+        "season": "Firefly Series 1"
+    },
+    {
         "Name": "The Good Place Season 1",
         "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
         "tags": "['comedy', 'mystery', 'tv show']",
         "uploaddate": 1676505600000,
         "type": "tv show",
         "series": "The Good Place"
+    },
+    {
+        "Name": "Season 1 Episode 1",
+        "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
+        "highlightlink": "https://youtu.be/jMK4kXi15jQ",
+        "fullreactionlink": "https://www.patreon.com/posts/121951237",
+        "tags": "['comedy', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "The Good Place",
+        "season": "The Good Place Series 1"
+    },
+    {
+        "Name": "Season 1 Episode 2",
+        "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
+        "highlightlink": "https://www.patreon.com/posts/121951290",
+        "fullreactionlink": "https://www.patreon.com/posts/121951322",
+        "tags": "['comedy', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "The Good Place",
+        "season": "The Good Place Series 1"
+    },
+    {
+        "Name": "Season 1 Episode 3",
+        "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/121951362",
+        "tags": "['comedy', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "The Good Place",
+        "season": "The Good Place Series 1"
+    },
+    {
+        "Name": "Season 1 Episode 4",
+        "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/121951466",
+        "tags": "['comedy', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "The Good Place",
+        "season": "The Good Place Series 1"
     }
   
 ];
