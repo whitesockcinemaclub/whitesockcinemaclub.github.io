@@ -464,7 +464,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "Breaking Bad",
-        "season": "Breaking Bad Series 1"
+        "season": "Breaking Bad Season 1"
     },
     {
         "Name": "Season 1 Episode 2",
@@ -475,7 +475,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "Breaking Bad",
-        "season": "Breaking Bad Series 1"
+        "season": "Breaking Bad Season 1"
     },
     {
         "Name": "Season 1 Episode 3",
@@ -486,7 +486,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "Breaking Bad",
-        "season": "Breaking Bad Series 1"
+        "season": "Breaking Bad Season 1"
     },
     {
         "Name": "Season 1 Episode 4",
@@ -497,7 +497,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "Breaking Bad",
-        "season": "Breaking Bad Series 1"
+        "season": "Breaking Bad Season 1"
     },
     {
         "Name": "Season 1 Episode 5",
@@ -508,7 +508,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "Breaking Bad",
-        "season": "Breaking Bad Series 1"
+        "season": "Breaking Bad Season 1"
     },
     {
         "Name": "Doctor Who Series 1",
@@ -601,7 +601,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "Firefly",
-        "season": "Firefly Series 1"
+        "season": "Firefly"
     },
     {
         "Name": "Episode 2",
@@ -612,7 +612,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "Firefly",
-        "season": "Firefly Series 1"
+        "season": "Firefly"
     },
     {
         "Name": "Episode 3",
@@ -623,7 +623,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "Firefly",
-        "season": "Firefly Series 1"
+        "season": "Firefly"
     },
     {
         "Name": "The Good Place Season 1",
@@ -642,7 +642,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "The Good Place",
-        "season": "The Good Place Series 1"
+        "season": "The Good Place Season 1"
     },
     {
         "Name": "Season 1 Episode 2",
@@ -653,7 +653,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "The Good Place",
-        "season": "The Good Place Series 1"
+        "season": "The Good Place Season 1"
     },
     {
         "Name": "Season 1 Episode 3",
@@ -664,7 +664,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "The Good Place",
-        "season": "The Good Place Series 1"
+        "season": "The Good Place Season 1"
     },
     {
         "Name": "Season 1 Episode 4",
@@ -675,7 +675,7 @@ const tilesData = [
         "uploaddate": 1676592000000,
         "type": "episode",
         "series": "The Good Place",
-        "season": "The Good Place Series 1"
+        "season": "The Good Place Season 1"
     }
   
 ];
