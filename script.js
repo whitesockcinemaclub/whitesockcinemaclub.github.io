@@ -469,7 +469,7 @@ const tilesData = [
     {
         "Name": "Season 1 Episode 2",
         "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
-        "highlightlink": "https://www.patreon.com/posts/121658131",
+        "highlightlink": "https://youtu.be/8_ysOUfeQ98",
         "fullreactionlink": "https://www.patreon.com/posts/121595095",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
@@ -480,7 +480,7 @@ const tilesData = [
     {
         "Name": "Season 1 Episode 3",
         "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
-        "highlightlink": "https://www.patreon.com/posts/121658206",
+        "highlightlink": "https://youtu.be/VPRQNI9sw7E",
         "fullreactionlink": "https://www.patreon.com/posts/121595275",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
@@ -511,6 +511,28 @@ const tilesData = [
         "season": "Breaking Bad Season 1"
     },
     {
+        "Name": "Season 1 Episode 6",
+        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/122562398",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Breaking Bad",
+        "season": "Breaking Bad Season 1"
+    },
+    {
+        "Name": "Season 1 Episode 6",
+        "Thumbnail src": "https://i.ibb.co/gzgLdQz/BBSeason1.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/122562563",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Breaking Bad",
+        "season": "Breaking Bad Season 1"
+    },
+    {
         "Name": "Doctor Who Series 1",
         "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
         "tags": "['scifi', 'adventure', 'tv show']",
@@ -532,7 +554,7 @@ const tilesData = [
     {
         "Name": "Series 1 Episode 2",
         "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
-        "highlightlink": "https://www.patreon.com/posts/121270715",
+        "highlightlink": "https://youtu.be/knF_oqlNUL4",
         "fullreactionlink": "https://www.patreon.com/posts/121270424/",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
@@ -543,7 +565,7 @@ const tilesData = [
     {
         "Name": "Series 1 Episode 3",
         "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
-        "highlightlink": "https://www.patreon.com/posts/121270767",
+        "highlightlink": "https://youtu.be/ZlBlJRdJps0",
         "fullreactionlink": "https://www.patreon.com/posts/121270495",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
@@ -554,7 +576,7 @@ const tilesData = [
     {
         "Name": "Series 1 Episode 4",
         "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
-        "highlightlink": "https://www.patreon.com/posts/121739637",
+        "highlightlink": "https://youtu.be/oeinOIG58a4",
         "fullreactionlink": "https://www.patreon.com/posts/121270523",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
@@ -585,6 +607,28 @@ const tilesData = [
         "season": "Doctor Who Series 1"
     },
     {
+        "Name": "Series 1 Episode 7",
+        "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
+        "highlightlink": "https://www.patreon.com/posts/122373942",
+        "fullreactionlink": "https://www.patreon.com/posts/122352787",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Doctor Who",
+        "season": "Doctor Who Series 1"
+    },
+    {
+        "Name": "Series 1 Episode 8",
+        "Thumbnail src": "https://i.ibb.co/zbr8btZ/DWseries1.png",
+        "highlightlink": "https://www.patreon.com/posts/122858507",
+        "fullreactionlink": "https://www.patreon.com/posts/122858109",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Doctor Who",
+        "season": "Doctor Who Series 1"
+    },
+    {
         "Name": "Firefly",
         "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
         "tags": "['scifi', 'adventure', 'tv show']",
@@ -606,7 +650,7 @@ const tilesData = [
     {
         "Name": "Episode 2",
         "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
-        "highlightlink": "hhttps://www.patreon.com/posts/122287222",
+        "highlightlink": "https://youtu.be/LDHxYXeKzPQ",
         "fullreactionlink": "https://www.patreon.com/posts/122287345",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
@@ -617,8 +661,41 @@ const tilesData = [
     {
         "Name": "Episode 3",
         "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
-        "highlightlink": "comingsoon.html",
+        "highlightlink": "https://www.patreon.com/posts/122727989",
         "fullreactionlink": "https://www.patreon.com/posts/122287345",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Firefly",
+        "season": "Firefly"
+    },
+    {
+        "Name": "Episode 4",
+        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/122438162",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Firefly",
+        "season": "Firefly"
+    },
+    {
+        "Name": "Episode 5",
+        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
+        "highlightlink": "https://www.patreon.com/posts/122439065",
+        "fullreactionlink": "https://www.patreon.com/posts/122287345",
+        "tags": "['scifi', 'adventure', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "Firefly",
+        "season": "Firefly"
+    },
+    {
+        "Name": "Episode 6",
+        "Thumbnail src": "https://i.ibb.co/swhyM12/fireflyseries.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/122727940",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
         "type": "episode",
@@ -647,7 +724,7 @@ const tilesData = [
     {
         "Name": "Season 1 Episode 2",
         "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
-        "highlightlink": "https://www.patreon.com/posts/121951290",
+        "highlightlink": "https://youtu.be/cuSj5D_Pnh4",
         "fullreactionlink": "https://www.patreon.com/posts/121951322",
         "tags": "['comedy', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
@@ -671,6 +748,28 @@ const tilesData = [
         "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
         "highlightlink": "comingsoon.html",
         "fullreactionlink": "https://www.patreon.com/posts/121951466",
+        "tags": "['comedy', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "The Good Place",
+        "season": "The Good Place Season 1"
+    },
+    {
+        "Name": "Season 1 Episode 5",
+        "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/122505890",
+        "tags": "['comedy', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "The Good Place",
+        "season": "The Good Place Season 1"
+    },
+    {
+        "Name": "Season 1 Episode 6",
+        "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/122505817",
         "tags": "['comedy', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
         "type": "episode",
