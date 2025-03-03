@@ -550,7 +550,7 @@ const tilesData = [
     },
     {
         "Name": "Season 2 Episode 1",
-        "Thumbnail src": "https://i.ibb.co/XnBYhg2/BBSeason2.pn",
+        "Thumbnail src": "https://i.ibb.co/XnBYhg2/BBSeason2.png",
         "highlightlink": "comingsoon.html",
         "fullreactionlink": "https://www.patreon.com/posts/123118620/",
         "tags": "['scifi', 'adventure', 'tv show', 'episode']",
