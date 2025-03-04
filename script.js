@@ -452,6 +452,14 @@ const tilesData = [
         "Thumbnail src": "https://img.youtube.com/vi/svv1Ag9SMRU/maxresdefault.jpg",
         "highlightlink": "https://youtu.be/svv1Ag9SMRU",
         "fullreactionlink": "https://www.patreon.com/posts/28-days-later-123199043",
+        "tags": "['action', 'sci-fi', 'scifi']",
+        "uploaddate": 1730485686005
+    },
+    {
+        "Name": "28 Days Later",
+        "Thumbnail src": "https://img.youtube.com/vi/nuT48Yhuhdo/maxresdefault.jpg",
+        "highlightlink": "https://youtu.be/nuT48Yhuhdo",
+        "fullreactionlink": "https://www.patreon.com/posts/123199043",
         "tags": "['action', 'horror', 'zombie']",
         "uploaddate": 1730485686005
     },
@@ -817,7 +825,7 @@ const tilesData = [
     {
         "Name": "Season 1 Episode 5",
         "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
-        "highlightlink": "comingsoon.html",
+        "highlightlink": "https://www.patreon.com/posts/good-place-1x5-123118520",
         "fullreactionlink": "https://www.patreon.com/posts/122505890",
         "tags": "['comedy', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
@@ -828,7 +836,7 @@ const tilesData = [
     {
         "Name": "Season 1 Episode 6",
         "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
-        "highlightlink": "comingsoon.html",
+        "highlightlink": "https://www.patreon.com/posts/good-place-1x6-123648377",
         "fullreactionlink": "https://www.patreon.com/posts/122505817",
         "tags": "['comedy', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
@@ -841,6 +849,17 @@ const tilesData = [
         "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
         "highlightlink": "comingsoon.html",
         "fullreactionlink": "https://www.patreon.com/posts/123036348/",
+        "tags": "['comedy', 'tv show', 'episode']",
+        "uploaddate": 1676592000000,
+        "type": "episode",
+        "series": "The Good Place",
+        "season": "The Good Place Season 1"
+    },
+    {
+        "Name": "Season 1 Episode 8",
+        "Thumbnail src": "https://i.ibb.co/Sc7vzS6/GPSeason1.png",
+        "highlightlink": "comingsoon.html",
+        "fullreactionlink": "https://www.patreon.com/posts/good-place-1x8-123648329",
         "tags": "['comedy', 'tv show', 'episode']",
         "uploaddate": 1676592000000,
         "type": "episode",
